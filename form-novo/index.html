@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+</head>
+<body>
+
+	<header>
+		<h1>Teste de criação de formulário</h1>
+		<p>Estou tentando criar um formulário sem copiar de lugar nenhum</p>
+	</header>
+
+	<form id="formulario">
+
+		<div id="grupo-form">
+			<label for="nome" id="nome">Nome</label>
+			<input type="text" for="nome" required>
+		</div>
+
+		<div id="grupo-form">
+			<label for="email" id="email">E-mail</label>
+			<input type="text" for="email" required>
+		</div>
+
+		<div id="grupo-form">
+			<label for="idade" id="idade">Idade</label>
+			<input type="number" for="idade" required> <!-- pesquisar como regirar o botão desse campo -->
+		</div>
+		
+		<!-- ESCOLHA DO FILME -->
+		<div id="grupo-form">
+			<label for="seletor" id="seletor">Escolha um filme</label>
+			<select name="filmes" id="filmes">
+				<option disabled selected value="">Filme</option>
+				<option value="lotr">Senhor dos Anéis</option>
+				<option value="got">Game of Thrones</option>
+				<option value="300">300 de Esparta</option>
+				<option value="piratas">Piratas do Caribe</option>
+			</select>
+		</div>
+
+		<!-- AVALIAÇÃO DO FILME -->
+		<div id="grupo-form">
+			<p>O que você achou do filme?</p>
+			<label>
+				<input type="radio" name="avaliacao"> Ótimo
+			</label>
+
+			<label>
+				<input type="radio" name="avaliacao"> Bom
+			</label>
+
+			<label>
+				<input type="radio" name="avaliacao"> Ruim
+			</label>
+
+			<label>
+				<input type="radio" name="avaliacao"> Péssimo
+			</label>
+		</div>
+
+		<!-- campo só para testar como fica-->
+		<div id="grupo-form">
+			<p>Campo só pra testar como fica</p>
+			<label>
+				<input type="checkbox" name="nota"> Teste 1
+			</label>
+
+			<label>
+				<input type="checkbox" name="nota"> Teste 2
+			</label>
+
+			<label>
+				<input type="checkbox" name="nota"> Teste 3
+			</label>
+		</div>
+
+		<!-- Área de texto para comentários-->
+		<div id="grupo-form">
+			<p>Faça um breve comentário sobre o filme que você esclheu</p>
+			<textarea name="comentario" id="comentario" rows="5"></textarea>
+		</div>
+
+		<div id="grupo-form">
+			<button type="submit" id="submit">Enviar</button>
+		</div>
+	</form>
+
+</body>
+</html>
