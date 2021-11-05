@@ -1,8 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+:root{
+	/* cores*/
+	--color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+
+	/* fontes */
+	--fonte-padrao: 'MedievalSharp', cursive;
+}
+
 *{
 	margin: 0;
 	padding: 0;
 }
 
+body{
+	background: var(--color-darkblue-alpha);
+	background-image: url("../img/fundo-medieval.jpg");
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
 #titulo{
-	margin-left: 7%;
+	margin-left: 26%;
+	font-family: var(--fonte-padrao)
+}
+
+#subtitulo{
+	margin-left: 31%;
+	font-family: var(--fonte-padrao);
+}
+
+#formulario{
+	font-family: var(--fonte-padrao);
+	color: var(--color-white);
+	margin-left: 33%;
 }
