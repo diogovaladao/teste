@@ -19,6 +19,7 @@
 
 body{
 	background: var(--color-darkblue-alpha);
+	font-family: var(--fonte-padrao);
 	background-image: url("../img/fundo-medieval.jpg");
 	background-size: cover;
   	background-repeat: no-repeat;
@@ -26,17 +27,18 @@ body{
 }
 
 #titulo{
-	margin-left: 26%;
-	font-family: var(--fonte-padrao)
+	margin-left: 34%;
+	margin-right: 38%;
+	font-family: var(--fonte-padrao);
+	padding: 1em;
 }
 
 #subtitulo{
 	margin-left: 31%;
-	font-family: var(--fonte-padrao);
 }
 
 #formulario{
-	font-family: var(--fonte-padrao);
+	
 	color: var(--color-white);
 	margin-left: 33%;
 }
