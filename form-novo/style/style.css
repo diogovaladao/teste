@@ -27,18 +27,35 @@ body{
 }
 
 #titulo{
-	margin-left: 34%;
-	margin-right: 38%;
+	margin-left: 37%;
+	margin-right: 35%;
 	font-family: var(--fonte-padrao);
 	padding: 1em;
 }
 
 #subtitulo{
-	margin-left: 31%;
+	margin-left: 41%;
 }
 
-#formulario{
-	
+form{
 	color: var(--color-white);
 	margin-left: 33%;
+	margin-right: 33%;
+	border-radius: 10px;
+	/*background-color: rgba(66, 32, 32, 0.582);*/
+	background-color: rgba(42, 43, 37, 0.582);
+}
+
+#grupo-form{
+	margin-left: 23%;
+}
+
+br{
+	padding: 5px;
+}
+.campo{
+	border-radius: 5px;
+	width: 60%;
+    height: 26px;
+	padding-top: 5px;
 }
