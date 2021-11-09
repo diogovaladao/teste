@@ -42,17 +42,15 @@ form{
 	margin-left: 33%;
 	margin-right: 33%;
 	border-radius: 10px;
-	/*background-color: rgba(66, 32, 32, 0.582);*/
 	background-color: rgba(42, 43, 37, 0.582);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
 }
+
 
 #grupo-form{
 	margin-left: 23%;
 }
 
-br{
-	padding: 5px;
-}
 .campo{
 	border-radius: 5px;
 	width: 60%;
