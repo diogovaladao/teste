@@ -38,8 +38,8 @@ header h1{
 
 form{
 	color: var(--color-white);
-	margin-left: 33%;
-	margin-right: 33%;
+	max-width: 600px;
+	margin: auto;
 	border-radius: 10px;
 	background-color: rgba(42, 43, 37, 0.582);
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
