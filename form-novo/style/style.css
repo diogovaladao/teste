@@ -26,15 +26,14 @@ body{
   	background-position: center;
 }
 
-#titulo{
-	margin-left: 37%;
-	margin-right: 35%;
+header{
+	text-align: center;
 	font-family: var(--fonte-padrao);
-	padding: 1em;
+	min-height: 80px;
 }
 
-#subtitulo{
-	margin-left: 41%;
+header h1{
+	padding: 10px;
 }
 
 form{
