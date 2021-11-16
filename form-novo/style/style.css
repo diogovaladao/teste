@@ -54,17 +54,17 @@ form{
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);	
 }
 
-input[type="text"], input[type="email"], input[type="number"]{
+#grupo-form{
+	margin-left: 23%;
+	margin-top: 10px;
+}
+
+input, textarea{
 	font-size: 20px;
 }
 
 label{
 	display: block;
-}
-
-#grupo-form{
-	margin-left: 23%;
-	margin-top: 10px;
 }
 
 .opc label{
@@ -75,9 +75,17 @@ label{
 	margin-bottom: 5px;
 }
 
-.botao{
+
+textarea{
+	margin: 0px;
+    width: 297px;
+    height: 121px;
+	resize: none;
+}
+
+button{
 	margin-bottom: 0.5em;
-	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 	font-family: var(--fonte-padrao);
 	color: var(--color-white);
 	background-color: var(--color-botao);
@@ -87,6 +95,6 @@ label{
 	border-radius: 5px;
 }
 
-.botao:hover{
+button:hover{
 	background-color: var(--color-hover);
 }
