@@ -67,6 +67,10 @@ label{
 	display: block;
 }
 
+#nome{
+	padding-top: 10px;
+}
+
 .opc label{
 	display: inline;
 }
