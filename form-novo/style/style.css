@@ -7,6 +7,8 @@
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
     --color-green: #37af65;
+	--color-fundo: rgba(42, 43, 37, 0.582);
+	--color-hover: rgba(28, 29, 27, 0.582);
 
 	/* fontes */
 	--fonte-padrao: 'MedievalSharp', cursive;
@@ -36,23 +38,50 @@ header h1{
 	padding: 10px;
 }
 
-form{
-	color: var(--color-white);
-	max-width: 600px;
-	margin: auto;
-	border-radius: 10px;
-	background-color: rgba(42, 43, 37, 0.582);
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
-}
-
-
-#grupo-form{
-	margin-left: 23%;
-}
-
 .campo{
 	border-radius: 5px;
 	width: 60%;
     height: 26px;
 	padding-top: 5px;
+}
+
+form{
+	color: var(--color-white);
+	max-width: 600px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: var(--color-fundo);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);	
+}
+
+label{
+	display: block;
+}
+
+#grupo-form{
+	margin-left: 23%;
+	margin-top: 10px;
+}
+
+.opc label{
+	display: inline;
+}
+
+.opc p{
+	margin-bottom: 5px;
+}
+
+.botao{
+	margin-bottom: 0.5em;
+	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+	font-family: var(--fonte-padrao);
+	color: var(--color-white);
+	background-color: rgba(56, 59, 35, 0.253);;
+	font-size: 1.5em;
+	margin-left: 25%;
+	cursor: pointer;
+}
+
+.botao:hover{
+	background-color: var(--color-hover);
 }
