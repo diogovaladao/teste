@@ -51,7 +51,7 @@ form{
 	margin: auto;
 	border-radius: 10px;
 	background-color: var(--color-fundo);
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);	
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
 }
 
 #grupo-form{
@@ -75,6 +75,10 @@ label{
 	margin-bottom: 5px;
 }
 
+select{
+	border-radius: 10px;
+	font-size: 15px;
+}
 
 textarea{
 	margin: 0px;
