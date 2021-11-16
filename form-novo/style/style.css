@@ -5,9 +5,9 @@
 	/* cores*/
 	--color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
-    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
-    --color-green: #37af65;
+    --color-darkblue-alpha: rgba(29, 29, 51, 0.8);
 	--color-fundo: rgba(42, 43, 37, 0.582);
+	--color-botao: rgba(56, 59, 35, 0.253);
 	--color-hover: rgba(28, 29, 27, 0.582);
 
 	/* fontes */
@@ -20,7 +20,7 @@
 }
 
 body{
-	background: var(--color-darkblue-alpha);
+/*	background: var(--color-darkblue-alpha);*/
 	font-family: var(--fonte-padrao);
 	background-image: url("../img/fundo-medieval.jpg");
 	background-size: cover;
@@ -76,10 +76,11 @@ label{
 	box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
 	font-family: var(--fonte-padrao);
 	color: var(--color-white);
-	background-color: rgba(56, 59, 35, 0.253);;
+	background-color: var(--color-botao);
 	font-size: 1.5em;
 	margin-left: 25%;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .botao:hover{
