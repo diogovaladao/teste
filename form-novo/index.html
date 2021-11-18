@@ -8,31 +8,30 @@
 	<title>Formulário</title>
 </head>
 <body>
-
 	<header>
-		<h1 id="titulo">Teste de criação de formulário</h1>
-		<p id="subtitulo">Estou tentando criar um formulário sem copiar</p>
+		<h1>Teste de criação de formulário</h1>
+		<p>Estou tentando criar um formulário sem copiar</p>
 	</header>
 
 	<form id="formulario">
 
-		<div id="grupo-form">
+		<div class="grupo-form">
 			<label for="nome" id="nome">Nome</label>
 			<input class="campo" type="text" for="nome" required>
 		</div>
 
-		<div id="grupo-form">
+		<div class="grupo-form">
 			<label for="email" id="email">E-mail</label>
 			<input class="campo" type="email" for="email" required>
 		</div>
 
-		<div id="grupo-form">
+		<div class="grupo-form">
 			<label for="idade" id="idade">Idade</label>
 			<input class="campo" type="number" for="idade" required> <!-- pesquisar como regirar o botão desse campo -->
 		</div>
 		
 		<!-- ESCOLHA DO FILME -->
-		<div id="grupo-form">
+		<div class="grupo-form">
 			<label for="seletor" id="seletor">Escolha um filme</label>
 			<select name="filmes" id="filmes">
 				<option disabled selected value="">Filme</option>
@@ -44,7 +43,7 @@
 		</div>
 
 		<!-- AVALIAÇÃO DO FILME -->
-		<div id="grupo-form" class="opc">
+		<div class="grupo-form" id="opc">
 			<p>O que você achou do filme?</p>
 			<label>
 				<input type="radio" name="avaliacao"> Ótimo
@@ -64,7 +63,7 @@
 		</div>
 
 		<!-- campo só para testar como fica-->
-		<div id="grupo-form" class="opc">
+		<div class="grupo-form" id="opc">
 			<p>Campo só pra testar como fica</p>
 			<label>
 				<input type="checkbox" name="nota"> Teste 1
@@ -80,15 +79,17 @@
 		</div>
 
 		<!-- Área de texto para comentários-->
-		<div id="grupo-form" class="opc">
+		<div class="grupo-form" id="opc">
 			<p>Faça um breve comentário sobre o filme</p>
 			<textarea name="comentario" id="comentario" cols="38" rows="5"></textarea>			
 		</div>
 
-		<div id="grupo-form">
+		<div class="grupo-form">
 			<button type="submit" class="botao">Enviar</button>
 		</div>
 	</form>
-
+	<footer>
+		Desenvolvido por Diogo Valadão
+	</footer>
 </body>
 </html>
