@@ -13,7 +13,7 @@
 		<p>Estou tentando criar um formulário sem copiar</p>
 	</header>
 
-	<form id="formulario">
+	<form>
 
 		<div class="grupo-form">
 			<label for="nome" id="nome">Nome</label>
@@ -41,43 +41,45 @@
 				<option value="piratas">Piratas do Caribe</option>
 			</select>
 		</div>
-
-		<!-- AVALIAÇÃO DO FILME -->
-		<div class="grupo-form" id="opc">
-			<p>O que você achou do filme?</p>
-			<label>
-				<input type="radio" name="avaliacao"> Ótimo
-			</label>
-
-			<label>
-				<input type="radio" name="avaliacao"> Bom
-			</label>
-
-			<label>
-				<input type="radio" name="avaliacao"> Ruim
-			</label>
-
-			<label>
-				<input type="radio" name="avaliacao"> Péssimo
-			</label>
+		
+		<div id="opc">
+			<!-- AVALIAÇÃO DO FILME -->
+			<div class="grupo-form" >
+				<p>O que você achou do filme?</p>
+				<label>
+					<input type="radio" name="avaliacao"> Ótimo
+				</label>
+				
+				<label>
+					<input type="radio" name="avaliacao"> Bom
+				</label>
+				
+				<label>
+					<input type="radio" name="avaliacao"> Ruim
+				</label>
+				
+				<label>
+					<input type="radio" name="avaliacao"> Péssimo
+				</label>
+			</div>
+			
+			<!-- campo só para testar como fica-->
+			<div class="grupo-form" >
+				<p>Campo só pra testar como fica</p>
+				<label>
+					<input type="checkbox" name="nota"> Teste 1
+				</label>
+				
+				<label>
+					<input type="checkbox" name="nota"> Teste 2
+				</label>
+				
+				<label>
+					<input type="checkbox" name="nota"> Teste 3
+				</label>
+			</div>
 		</div>
-
-		<!-- campo só para testar como fica-->
-		<div class="grupo-form" id="opc">
-			<p>Campo só pra testar como fica</p>
-			<label>
-				<input type="checkbox" name="nota"> Teste 1
-			</label>
-
-			<label>
-				<input type="checkbox" name="nota"> Teste 2
-			</label>
-
-			<label>
-				<input type="checkbox" name="nota"> Teste 3
-			</label>
-		</div>
-
+			
 		<!-- Área de texto para comentários-->
 		<div class="grupo-form" id="opc">
 			<p>Faça um breve comentário sobre o filme</p>
