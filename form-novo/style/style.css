@@ -38,9 +38,22 @@ header h1{
 
 .campo{
 	border-radius: 5px;
-	width: 60%;
+	width: 80%;
     height: 26px;
 	padding-top: 5px;
+}
+
+@media (max-width: 1000px){
+	form{
+		width: 500px;
+	}
+}
+
+
+@media (max-width: 550px){
+	form{
+		width: 400px;
+	}
 }
 
 form{
@@ -54,7 +67,7 @@ form{
 }
 
 .grupo-form{
-	margin-left: 23%;
+	margin-left: 20%;
 	margin-top: 10px;
 }
 
@@ -85,7 +98,7 @@ select{
 
 textarea{
 	margin: 0px;
-    width: 297px;
+    width: 378px;
     height: 121px;
 	resize: none;
 }
