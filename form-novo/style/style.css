@@ -47,12 +47,19 @@ header h1{
 	form{
 		width: 500px;
 	}
+	
+	#comentario{
+		width: 325px;
+	}
 }
-
 
 @media (max-width: 550px){
 	form{
 		width: 400px;
+	}
+	
+	#comentario{
+		width: 260px;
 	}
 }
 
