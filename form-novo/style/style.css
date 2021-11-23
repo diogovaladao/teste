@@ -21,9 +21,9 @@
 body{
 	font-family: var(--fonte-padrao);
 	background-image: url("../img/fundo-medieval.jpg");
-	background-position: center center;
 	background-size: cover;
   	background-position: center;
+	background-attachment: fixed;
 }
 
 header{
