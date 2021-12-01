@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Metal+Mania&display=swap');
+
+:root{
+	--fonte-metallica: 'Metal Mania';
+	--fonte-metal: 'Metal';
+}
+
+body{
+	background-image: url("../img/Metallica-Logo-preto.png");
+	background-size: cover;
+  	background-position: center;
+	background-attachment: fixed;
+}
+
