@@ -1,5 +1,6 @@
-@import url('/spiderman/assets/css/reset.css');
-@import url('/spiderman/assets/css/global.css');
+@import url('reset.css');
+@import url('global.css');
+
 
 body{
     background-color: var(--primary-color);
@@ -11,13 +12,14 @@ body{
     text-align: center;
 }
 
-.s-menu__item{
+.s-menu__item {
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
 }
 
-.s-menu__icon{
+.s-menu__icon {
     width: 2.5rem;
     margin: 0 1.25rem;
+    vertical-align: middle;
 }
