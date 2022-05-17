@@ -50,9 +50,10 @@ body::before {
     height: 70vh;
 }
 
-.s-card__background{
-    width: 100%;
-    height: 100%;
+/* a classe s-card__background não ficou subordinada à s-card*/
+.s-card__background {
+    width: calc(100% / 3  - 8%);
+    height: 70vh;
     object-fit: cover;
     position: absolute;
     opacity: 1;
