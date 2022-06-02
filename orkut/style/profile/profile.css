@@ -1,0 +1,61 @@
+header.menu{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 15px;
+}
+
+.photo,
+.description,
+.counter__friends,
+.counter__comunity{
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgba(121, 121, 121);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.photo{
+    height: 500px;
+    border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_avatar > img{
+    border-radius: 15px;
+}
+
+.photo__tools > div > i{
+    margin-right: 10px;
+}
+
+.photo > *{
+    border: 2px solid red;
+}
+
+.description{
+    height: 400px;
+}
+
+.counter__friends,
+.counter__comunity{
+    height: 600px;
+}
