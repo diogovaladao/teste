@@ -37,6 +37,7 @@ header.menu{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 400px;
 }
 
 .photo_avatar > img{
@@ -44,18 +45,42 @@ header.menu{
 }
 
 .photo__tools > div > i{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
-.photo > *{
-    border: 2px solid red;
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
 }
+
+/*.photo > *{
+    border: 2px solid red;
+}*/
 
 .description{
-    height: 400px;
+    height: 800px;
+    max-width: 100vh; /* olhar aqui como vai ficar */    
 }
 
 .counter__friends,
 .counter__comunity{
-    height: 600px;
+    height: 350px;
+    width: 340px;    
+}
+
+header > nav{
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > #title > h1{
+    font-size: 50px;
+}
+
+header > nav > #hamburguer > label{
+    font-size: 50px;
 }

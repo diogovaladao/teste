@@ -22,3 +22,9 @@
     background-color: var(--cor-orkut);
     cursor: pointer;
 }
+
+.shadow{
+    box-shadow: 9px 10px 20px -5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 9px 10px 20px -5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 9px 10px 20px -5px rgba(0,0,0,0.6);
+}
